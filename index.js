@@ -75,5 +75,7 @@ const router = {
   ping: routeHandler.ping,
   books: routeHandler.Books,
   user: routeHandler.User,
+  lendbook: routeHandler.lendBook,
+  returnbook: routeHandler.returnBook,
   notfound: routeHandler.notfound,
 };
